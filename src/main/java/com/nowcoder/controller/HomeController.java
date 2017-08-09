@@ -1,6 +1,5 @@
 package com.nowcoder.controller;
 
-import com.nowcoder.model.HostHolder;
 import com.nowcoder.model.Question;
 import com.nowcoder.model.ViewObject;
 import com.nowcoder.service.QuestionService;
@@ -26,30 +25,10 @@ public class HomeController {
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
     @Autowired
-    private QuestionService questionService;
-    @Autowired
-    private UserService userService;
-    @Autowired
-    private HostHolder hostHolder;
+    QuestionService questionService;
 
-    @RequestMapping(path = {"/", "/index"}, method = {RequestMethod.GET, RequestMethod.POST})
-    public String index(Model model, @RequestParam(value = "pop", defaultValue = "0") int pop) {
-        model.addAttribute("vos", getQuestions(0, 0, 10));
-        return "index";
-    }
-
-    /**
-     * 根据用户ID进行提取过滤
-     *
-     * @param model 模型
-     * @param userId 用户ID
-     * @return
-     */
-    @RequestMapping(path = {"/user/{userId}"}, method = {RequestMethod.GET, RequestMethod.POST})
-    public String userIndex(Model model, @PathVariable("userId") int userId) {
-        model.addAttribute("vos", getQuestions(userId, 0, 10));
-        return "index";
-    }
+    @Autowired
+    UserService userService;
 
     private List<ViewObject> getQuestions(int userId, int offset, int limit) {
         List<Question> questionList = questionService.getLatestQuestions(userId, offset, limit);
@@ -61,5 +40,18 @@ public class HomeController {
             vos.add(vo);
         }
         return vos;
+    }
+
+    @RequestMapping(path = {"/", "/index"}, method = {RequestMethod.GET, RequestMethod.POST})
+    public String index(Model model,
+                        @RequestParam(value = "pop", defaultValue = "0") int pop) {
+        model.addAttribute("vos", getQuestions(0, 0, 10));
+        return "index";
+    }
+
+    @RequestMapping(path = {"/user/{userId}"}, method = {RequestMethod.GET, RequestMethod.POST})
+    public String userIndex(Model model, @PathVariable("userId") int userId) {
+        model.addAttribute("vos", getQuestions(userId, 0, 10));
+        return "index";
     }
 }

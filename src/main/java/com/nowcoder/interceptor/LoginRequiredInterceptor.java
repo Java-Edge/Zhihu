@@ -16,17 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
     @Autowired
-    private HostHolder hostHolder;
+    HostHolder hostHolder;
 
-    /**
-     * 打开某页面时,先判断有无用户登录,以实现未跳转登录
-     *
-     * @param httpServletRequest
-     * @param httpServletResponse
-     * @param o
-     * @return
-     * @throws Exception
-     */
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         if (hostHolder.getUser() == null) {

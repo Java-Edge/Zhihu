@@ -19,103 +19,92 @@ import java.util.*;
 @Service
 public class UserService {
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
-
     @Autowired
     private UserDAO userDAO;
 
     @Autowired
     private LoginTicketDAO loginTicketDAO;
 
-    public User getUser(int id) {
-        return userDAO.selectById(id);
-    }
-
-    /**
-     * 注册
-     *
-     * @param username 用户名
-     * @param password 密码
-     * @return 因为要返回各种信息,所以用Map存储,当为空时,说明注册成功
-     */
-    public Map<String, String> register(String username, String password) {
-        Map<String, String> map = new HashMap<>();
+    public Map<String, Object> register(String username, String password) {
+        Map<String, Object> map = new HashMap<String, Object>();
         if (StringUtils.isBlank(username)) {
             map.put("msg", "用户名不能为空");
             return map;
         }
+
         if (StringUtils.isBlank(password)) {
             map.put("msg", "密码不能为空");
             return map;
         }
+
         User user = userDAO.selectByName(username);
+
         if (user != null) {
             map.put("msg", "用户名已经被注册");
             return map;
         }
 
-        //通过校检,开始记录注册信息
+        // 密码强度
         user = new User();
         user.setName(username);
-        //通过随机的UUID生成随机的salt
         user.setSalt(UUID.randomUUID().toString().substring(0, 5));
-        user.setHeadUrl(String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000)));
-        //安全性极高的密码
-        user.setPassword(WendaUtil.MD5(password + user.getSalt()));
+        String head = String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000));
+        user.setHeadUrl(head);
+        user.setPassword(WendaUtil.MD5(password+user.getSalt()));
         userDAO.addUser(user);
 
-        //ticket绑定到用户,毕竟注册完后自动就登录了,所以也下发ticket
+        // 登陆
         String ticket = addLoginTicket(user.getId());
         map.put("ticket", ticket);
-
         return map;
     }
 
-    public Map<String,String> login(String username, String password) {
-        Map<String, String> map = new HashMap<>();
+
+    public Map<String, Object> login(String username, String password) {
+        Map<String, Object> map = new HashMap<String, Object>();
         if (StringUtils.isBlank(username)) {
             map.put("msg", "用户名不能为空");
             return map;
         }
+
         if (StringUtils.isBlank(password)) {
             map.put("msg", "密码不能为空");
             return map;
         }
+
         User user = userDAO.selectByName(username);
+
         if (user == null) {
             map.put("msg", "用户名不存在");
             return map;
         }
 
-        if (!WendaUtil.MD5(password + user.getSalt()).equals(user.getPassword())) {
-            map.put("msg", "密码错误");
+        if (!WendaUtil.MD5(password+user.getSalt()).equals(user.getPassword())) {
+            map.put("msg", "密码不正确");
             return map;
         }
 
-        //ticket绑定到用户,表明登录成功
         String ticket = addLoginTicket(user.getId());
         map.put("ticket", ticket);
         return map;
     }
 
-    public String addLoginTicket(int userId) {
-        LoginTicket loginTicket = new LoginTicket();
-        loginTicket.setUserId(userId);
-        Date now = new Date();
-        now.setTime(3600 * 24 * 100 + now.getTime());
-        loginTicket.setExpired(now);
-        loginTicket.setStatus(0);
-        loginTicket.setTicket(UUID.randomUUID().toString().replaceAll("-", ""));
-        loginTicketDAO.addTicket(loginTicket);
-        return loginTicket.getTicket();
-
-
-
+    private String addLoginTicket(int userId) {
+        LoginTicket ticket = new LoginTicket();
+        ticket.setUserId(userId);
+        Date date = new Date();
+        date.setTime(date.getTime() + 1000*3600*24);
+        ticket.setExpired(date);
+        ticket.setStatus(0);
+        ticket.setTicket(UUID.randomUUID().toString().replaceAll("-", ""));
+        loginTicketDAO.addTicket(ticket);
+        return ticket.getTicket();
     }
 
-    /**
-     * 退出即 使ticket状态为1失效
-     * @param ticket
-     */
+    public User getUser(int id) {
+        return userDAO.selectById(id);
+    }
+
     public void logout(String ticket) {
         loginTicketDAO.updateStatus(ticket, 1);
     }
