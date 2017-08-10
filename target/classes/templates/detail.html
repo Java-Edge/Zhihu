@@ -8,9 +8,7 @@
             <meta itemprop="visitsCount" content="402">
             <div id="zh-question-title" data-editable="true" class="zm-editable-status-normal">
                 <h2 class="zm-item-title">
-
                     <span class="zm-editable-content">$!{question.title}</span>
-
                 </h2>
             </div>
             <div id="zh-question-detail" class="zm-item-rich-text zm-editable-status-normal">
@@ -86,9 +84,11 @@
                         <div class="zm-item-answer-author-info">
                             <a class="zm-item-link-avatar avatar-link" href="" target="_blank"
                                data-tip="p$t$yingxiaodao">
-                                <img src="$comment.user.headUrl"
+                                <!--头像-->
+                                <img src="${comment.user.headUrl}"
                                      class="zm-list-avatar avatar"></a>
-                            <a class="author-link" target="_blank" href="/user/$comment.user.id">$comment.user.name</a>
+                            <!--用户名-->
+                            <a class="author-link" target="_blank" href="/user/$comment.user.id">${comment.user.name}</a>
                             </div>
                         <div class="zm-item-vote-info" data-votecount="28" data-za-module="VoteInfo">
                                 <span class="voters text">
@@ -99,8 +99,9 @@
                     <div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6727688"
                          data-action="/answer/content" data-author-name="营销岛"
                          data-entry-url="/question/36301524/answer/66862039">
+                        <!--评论内容-->
                         <div class="zm-editable-content clearfix">
-                            $comment.comment.content
+                            ${comment.comment.content}
                         </div>
                     </div>
                     <a class="zg-anchor-hidden ac" name="22162611-comment"></a>
@@ -108,25 +109,15 @@
                         <div class="zm-meta-panel">
                             <a itemprop="url" class="answer-date-link meta-item" target="_blank" href="">发布于
                                 $date.format('yyyy-MM-dd HH:mm:ss', $comment.comment.createdDate)</a>
-
-                            <!--
-                            <a href="" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
-                                <i class="z-icon-comment"></i>4 条评论</a>
-                            <a href="" class="meta-item zu-autohide js-thank" data-thanked="false">
-                                <i class="z-icon-thank"></i>感谢</a>
-
-                            <button class="item-collapse js-collapse" style="transition: none;">
-                                <i class="z-icon-fold"></i>收起
-                            </button>
-                            -->
                         </div>
                     </div>
                 </div>
                 #end
             </div>
             <a name="draft"></a>
+
             <form action="/addComment" method="post" id="commentform">
-                <input type="hidden" name="questionId" value="$question.id"/>
+                <input type="hidden" name="questionId" value="$!{question.id}"/>
             <div id="zh-question-answer-form-wrap" class="zh-question-answer-form-wrap">
                 <div class="zm-editable-editor-wrap" style="">
                     <div class="zm-editable-editor-outer">

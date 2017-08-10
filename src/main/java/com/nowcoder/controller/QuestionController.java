@@ -1,7 +1,7 @@
 package com.nowcoder.controller;
 
-import com.nowcoder.model.HostHolder;
-import com.nowcoder.model.Question;
+import com.nowcoder.model.*;
+import com.nowcoder.service.CommentService;
 import com.nowcoder.service.QuestionService;
 import com.nowcoder.service.UserService;
 import com.nowcoder.util.WendaUtil;
@@ -12,7 +12,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * ajax操作
@@ -30,6 +32,8 @@ public class QuestionController {
     private HostHolder hostHolder;
     @Autowired
     private UserService userService;
+    @Autowired
+    private CommentService commentService;
 
     /**
      * 添加问题
@@ -62,11 +66,22 @@ public class QuestionController {
         return WendaUtil.getJSONString(1, "失败");
     }
 
-    @RequestMapping(value = "/question/{qid}")
+
+
+    @RequestMapping(value = "/question/{qid}", method = {RequestMethod.GET})
     public String questionDetail(Model model, @PathVariable("qid") int qid) {
         Question question = questionService.selectById(qid);
-        model.addAttribute("question", qid);
-        model.addAttribute("user", userService.getUser(question.getUserId()));
+        model.addAttribute("question", question);
+
+        List<Comment> commentList = commentService.getCommentsByEntity(qid, EntityType.ENTITY_QUESTION);
+        List<ViewObject> comments = new ArrayList<>();
+        for (Comment comment : commentList) {
+            ViewObject vo = new ViewObject();
+            vo.set("comment", comment);
+            vo.set("user", userService.getUser(comment.getUserId()));
+            comments.add(vo);
+        }
+        model.addAttribute("comments", comments);
         return "detail";
     }
 
