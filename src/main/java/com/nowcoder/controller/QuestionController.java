@@ -2,6 +2,7 @@ package com.nowcoder.controller;
 
 import com.nowcoder.model.*;
 import com.nowcoder.service.CommentService;
+import com.nowcoder.service.LikeService;
 import com.nowcoder.service.QuestionService;
 import com.nowcoder.service.UserService;
 import com.nowcoder.util.WendaUtil;
@@ -34,6 +35,8 @@ public class QuestionController {
     private UserService userService;
     @Autowired
     private CommentService commentService;
+    @Autowired
+    private LikeService likeService;
 
     /**
      * 添加问题
@@ -78,6 +81,15 @@ public class QuestionController {
         for (Comment comment : commentList) {
             ViewObject vo = new ViewObject();
             vo.set("comment", comment);
+
+            if (hostHolder.getUser() == null) {
+                vo.set("liked", 0);
+            } else {
+                vo.set("liked", likeService.getLikeStatus(hostHolder.getUser().getId(), comment.getId(), EntityType.ENTITY_COMMENT));
+            }
+
+
+            vo.set("likeCount", likeService.getLikeCount(comment.getId(), EntityType.ENTITY_COMMENT));
             vo.set("user", userService.getUser(comment.getUserId()));
             comments.add(vo);
         }
