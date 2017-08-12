@@ -1,7 +1,12 @@
 package com.nowcoder.controller;
 
+import com.nowcoder.async.EventModel;
+import com.nowcoder.async.EventProducer;
+import com.nowcoder.async.EventType;
+import com.nowcoder.model.Comment;
 import com.nowcoder.model.EntityType;
 import com.nowcoder.model.HostHolder;
+import com.nowcoder.service.CommentService;
 import com.nowcoder.service.LikeService;
 import com.nowcoder.util.WendaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +29,10 @@ public class LikeController {
     private HostHolder hostHolder;
     @Autowired
     private LikeService likeService;
+    @Autowired
+    private CommentService commentService;
+    @Autowired
+    private EventProducer eventProducer;
 
     /**
      * 赞
@@ -39,6 +48,17 @@ public class LikeController {
             //999:未登录
             return WendaUtil.getJSONString(999);
         }
+
+        Comment comment = commentService.getCommentById(commentId);
+
+        //点完赞后,发事件 TODO:comment.getEntityId()就是其对应questionID???
+        eventProducer.fireEvent(new EventModel(EventType.LIKE)
+                .setActorId(hostHolder.getUser().getId())
+                .setEntityId(commentId)
+                .setEntityType(EntityType.ENTITY_COMMENT)
+                .setEntityOwnerId(comment.getUserId())
+                .setExt("questionId", String.valueOf(comment.getEntityId())));
+
         long likeCount = likeService.like(hostHolder.getUser().getId(), commentId, EntityType.ENTITY_COMMENT);
         return WendaUtil.getJSONString(0, String.valueOf(likeCount));
     }

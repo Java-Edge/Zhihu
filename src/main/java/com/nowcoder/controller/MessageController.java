@@ -49,7 +49,7 @@ public class MessageController {
         List<ViewObject> conversations = new ArrayList<>();
         for (Message message : conversationList) {
             ViewObject vo = new ViewObject();
-            vo.set("conversation", message);
+            vo.set("message", message);
             //显示来信人
             int targetId = message.getFromId() == localUserId ? message.getToId() : message.getFromId();
             vo.set("user", userService.getUser(targetId));

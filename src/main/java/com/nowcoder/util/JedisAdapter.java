@@ -155,6 +155,7 @@ public class JedisAdapter implements InitializingBean{
         user.setHeadUrl("a.png");
         user.setSalt("salt");
         user.setId(1);
+        //序列化和反序列化
         print(46,JSONObject.toJSONString(user));
         jedis.set("user1", JSONObject.toJSONString(user));
 
