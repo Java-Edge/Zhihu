@@ -1,41 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" line="31" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="6f72eff5-e2b9-4aeb-b3cc-ed29b8327f8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LikeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/LikeController.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/LikeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/MessageController.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/MessageController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/follow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/business.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/followees.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/followers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventType.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/CommentDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/CommentDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/EntityType.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/model/EntityType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/CommentService.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/CommentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/QuestionService.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/QuestionService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/JedisAdapter.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/util/JedisAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/RedisKeyUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/util/RedisKeyUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/WendaUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/util/WendaUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" afterPath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" afterPath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/52a2add7-db55-48a1-828e-bf6ec9c01a51.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/52a2add7-db55-48a1-828e-bf6ec9c01a51.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_7_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/detail.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/letter.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/letter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wenda.iml" afterPath="$PROJECT_DIR$/wenda.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/init-schema.sql" afterPath="$PROJECT_DIR$/src/test/resources/init-schema.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/detail.js" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/util/action.js" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/util/action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/styles/index.css" afterPath="$PROJECT_DIR$/target/classes/static/styles/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/detail.html" afterPath="$PROJECT_DIR$/target/classes/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/footer.html" afterPath="$PROJECT_DIR$/target/classes/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/letter.html" afterPath="$PROJECT_DIR$/target/classes/templates/letter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" afterPath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,6 +91,18 @@
         <item name="wenda" type="e3449647:DbNodeDescriptor" />
         <item name="comment" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wenda@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="wenda" type="e3449647:DbNodeDescriptor" />
+        <item name="login_ticket" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="wenda@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="wenda" type="e3449647:DbNodeDescriptor" />
+        <item name="user" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
@@ -77,86 +111,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="QuestionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java">
+      <file leaf-file-name="JedisAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="74" column="76" lean-forward="false" selection-start-line="74" selection-start-column="76" selection-end-line="74" selection-end-column="76" />
+            <state relative-caret-position="408">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding>
-                <element signature="method#addQuestion#0;class#QuestionController#0" expanded="true" />
-                <element signature="method#questionDetail#0;class#QuestionController#0" expanded="true" />
+                <element signature="method#zadd#0;class#JedisAdapter#0" expanded="true" />
+                <element signature="method#zcard#0;class#JedisAdapter#0" expanded="true" />
+                <element signature="method#zscore#0;class#JedisAdapter#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MailSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#MailSender#0" expanded="true" />
-                <element signature="method#afterPropertiesSet#0;class#MailSender#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#LoginExceptionHandler#0" expanded="true" />
-                <element signature="method#doHandle#0;class#LoginExceptionHandler#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="1536">
+              <caret line="64" column="57" lean-forward="false" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java">
+      <file leaf-file-name="user" pinned="false" current-in-tab="true">
+        <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question" pinned="false" current-in-tab="false">
+        <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.question">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginTicketDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_exception.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html">
+      <file leaf-file-name="login_ticket" pinned="false" current-in-tab="false">
+        <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.login_ticket">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitDatabaseTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="984">
+              <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java">
+      <file leaf-file-name="init-schema.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/init-schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1656">
-              <caret line="0" column="32" lean-forward="true" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#reg#0;class#LoginController#0" expanded="true" />
-                <element signature="method#regloginPage#0;class#LoginController#0" expanded="true" />
-                <element signature="method#login#0;class#LoginController#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1728">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -217,45 +268,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sss/model/HostHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sss/configuration/WendaWebConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sss/interceptor/PassportInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sss/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/WendaWebConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/LoginRequiredInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/PassportInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/HostHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SensitiveService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Question.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Comment.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/init-schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/detail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/MessageDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/LikeService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/header.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventModel.java" />
@@ -263,11 +299,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/letter.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/init-schema.sql" />
       </list>
     </option>
   </component>
@@ -316,9 +367,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="3" />
-    <option name="y" value="305" />
-    <option name="width" value="1942" />
+    <option name="x" value="-86" />
+    <option name="y" value="376" />
+    <option name="width" value="1913" />
     <option name="height" value="1102" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -367,19 +418,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wenda" type="58d84e3e:PackageViewProjectNode" />
-              <item name="wenda" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,7 +499,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
@@ -498,17 +536,67 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="高级课第三次代码" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="高级课第三次代码" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="高级课第三次代码" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="高级课第三次代码" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="高级课第三次代码" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wenda" type="58d84e3e:PackageViewProjectNode" />
+              <item name="wenda" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-jedis-2.8.0.zip!/" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15953948" />
     <property name="project.structure.side.proportion" value="0.63755745" />
@@ -524,11 +612,12 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="ToolWindowBean Validation.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\00、Python+Java 牛客初中高级项目课\牛客网项目（高级）\代码\高级课第三次代码\src\main\resources\static" />
       <recent name="F:\00、Python+Java 牛客初中高级项目课\牛客网项目（高级）\代码\高级课第三次代码\src\main\resources\templates" />
+      <recent name="F:\00、Python+Java 牛客初中高级项目课\牛客网项目（高级）\代码\高级课第三次代码\src\main\resources\static" />
       <recent name="F:\00、Python+Java 牛客初中高级项目课\牛客网项目（高级）\代码\高级课第三次代码\src\test\resources" />
       <recent name="F:\00、Python+Java 牛客初中高级项目课\牛客网项目（高级）\代码\高级课第三次代码\src\main\java\com\sss\util" />
     </key>
@@ -975,9 +1064,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.WendaApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JedisAdapter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SensitiveService" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InitDatabaseTests.contextLoads" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InitDatabaseTests.contextLoads" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JedisAdapter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SensitiveService" />
       </list>
     </recent_temporary>
   </component>
@@ -1023,23 +1112,46 @@
       <workItem from="1502271300999" duration="15905000" />
       <workItem from="1502357249316" duration="12322000" />
       <workItem from="1502444763070" duration="15767000" />
-      <workItem from="1502531854008" duration="13413000" />
+      <workItem from="1502531854008" duration="14553000" />
+      <workItem from="1502619221766" duration="12026000" />
+      <workItem from="1502634412156" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.04 at 19h 17m 06s.xml">
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 33m 56s.xml">
       <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.04 at 19h 18m 58s.xml">
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 35m 04s.xml">
       <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.04 at 19h 19m 31s.xml">
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 45m 36s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 47m 30s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 49m 36s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 50m 21s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 53m 11s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 21h 57m 26s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 22h 05m 38s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2017.08.13 at 22h 28m 25s.xml">
       <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128651000" />
+    <option name="totallyTimeSpent" value="141972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,26 +1172,26 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64198893" sideWeight="0.5022472" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43820226" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62762433" sideWeight="0.49775282" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66961324" sideWeight="0.49775282" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7005618" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36179775" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2593985" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57348067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37877095" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19779006" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1113,229 +1225,15 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-jedis-2.8.0.zip!/jedis-jedis-2.8.0/src/main/java/redis/clients/jedis/BinaryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="287" column="14" lean-forward="false" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-jedis-2.8.0.zip!/jedis-jedis-2.8.0/src/main/java/redis/clients/jedis/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="214" column="8" lean-forward="false" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-jedis-2.8.0.zip!/jedis-jedis-2.8.0/src/main/java/redis/clients/jedis/JedisCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#JedisCommands#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.0/jedis-jedis-2.8.0.zip!/jedis-jedis-2.8.0/src/main/java/redis/clients/jedis/Jedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="826" column="14" lean-forward="false" selection-start-line="826" selection-start-column="14" selection-end-line="826" selection-end-column="14" />
-          <folding>
-            <element signature="method#lpush#0;class#Jedis#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="250" column="28" lean-forward="true" selection-start-line="250" selection-start-column="28" selection-end-line="250" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#JedisAdapter#0" expanded="false" />
-            <element signature="method#afterPropertiesSet#0;class#JedisAdapter#0" expanded="false" />
-            <element signature="method#srem#0;class#JedisAdapter#0" expanded="false" />
-            <element signature="method#scard#0;class#JedisAdapter#0" expanded="false" />
-            <element signature="method#sismember#0;class#JedisAdapter#0" expanded="false" />
-            <element signature="method#brpop#0;class#JedisAdapter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;class#InitializingBean#0" expanded="false" />
-            <element signature="docComment;method#afterPropertiesSet#0;class#InitializingBean#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;method#setApplicationContext#0;class#ApplicationContextAware#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;class#EventType#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding>
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#622#623#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#1012#1013#0" expanded="false" />
-            <element signature="e#1076#1077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="369" column="25" lean-forward="false" selection-start-line="369" selection-start-column="25" selection-end-line="369" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#EventProducer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk8/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.13/fastjson-1.2.13-sources.jar!/com/alibaba/fastjson/JSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="443" column="21" lean-forward="true" selection-start-line="443" selection-start-column="21" selection-end-line="443" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;method#parseObject#3;class#JSON#0" expanded="false" />
-            <element signature="method#parseObject#3;class#JSON#0" expanded="false" />
-            <element signature="e#16862#16863#0" expanded="false" />
-            <element signature="e#16925#16926#0" expanded="false" />
-            <element signature="docComment;method#toJSONString#0;class#JSON#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,20 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="docComment;class#LikeHandler#0" expanded="true" />
-            <element signature="method#getSupportEventTypes#0;class#LikeHandler#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="docComment;class#EventConsumer#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,15 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#EventModel#0" expanded="true" />
-            <element signature="docComment;field#type#0;class#EventModel#0" expanded="true" />
-            <element signature="method#EventModel#0;class#EventModel#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="method#setExt#0;class#EventModel#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,9 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="method#getConversationId#0;class#Message#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,14 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1421,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1437,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,7 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1468,11 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1736">
           <caret line="84" column="70" lean-forward="true" selection-start-line="84" selection-start-column="70" selection-end-line="84" selection-end-column="70" />
-          <folding>
-            <element signature="method#getConversationList#0;class#MessageController#0" expanded="true" />
-            <element signature="method#getConversationDetail#0;class#MessageController#0" expanded="true" />
-            <element signature="method#addMessage#0;class#MessageController#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1480,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-576">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2144">
           <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="65" selection-end-line="129" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,26 +1353,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="0">
           <caret line="74" column="76" lean-forward="false" selection-start-line="74" selection-start-column="76" selection-end-line="74" selection-end-column="76" />
-          <folding>
-            <element signature="method#addQuestion#0;class#QuestionController#0" expanded="true" />
-            <element signature="method#questionDetail#0;class#QuestionController#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,18 +1368,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#MailSender#0" expanded="true" />
-            <element signature="method#afterPropertiesSet#0;class#MailSender#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1558,39 +1390,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#LoginExceptionHandler#0" expanded="true" />
-            <element signature="method#doHandle#0;class#LoginExceptionHandler#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1200">
+          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="0" column="32" lean-forward="true" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        <state relative-caret-position="-1483">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenda.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#reg#0;class#LoginController#0" expanded="true" />
-            <element signature="method#regloginPage#0;class#LoginController#0" expanded="true" />
-            <element signature="method#login#0;class#LoginController#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
+            <element signature="method#getFollowerKey#0;class#RedisKeyUtil#0" expanded="false" />
+            <element signature="method#getFolloweeKey#0;class#RedisKeyUtil#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="method#getJSONString#1;class#WendaUtil#0" expanded="false" />
+            <element signature="method#getJSONString#2;class#WendaUtil#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="128" column="25" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+          <folding>
+            <element signature="method#follow#0;class#FollowService#0" expanded="false" />
+            <element signature="method#getFollowers#0;class#FollowService#0" expanded="false" />
+            <element signature="method#getFollowers#1;class#FollowService#0" expanded="false" />
+            <element signature="method#getFollowees#0;class#FollowService#0" expanded="false" />
+            <element signature="method#getFollowees#1;class#FollowService#0" expanded="false" />
+            <element signature="method#getFollowerCount#0;class#FollowService#0" expanded="false" />
+            <element signature="method#isFollower#0;class#FollowService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#1264#1265#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1720#1721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/followees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="158" column="41" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;method#followUser#0;class#FollowController#0" expanded="false" />
+            <element signature="method#followUser#0;class#FollowController#0" expanded="false" />
+            <element signature="docComment;method#unfollowUser#0;class#FollowController#0" expanded="false" />
+            <element signature="method#unfollowUser#0;class#FollowController#0" expanded="false" />
+            <element signature="docComment;method#followQuestion#0;class#FollowController#0" expanded="false" />
+            <element signature="method#followQuestion#0;class#FollowController#0" expanded="false" />
+            <element signature="docComment;method#unfollowQuestion#0;class#FollowController#0" expanded="false" />
+            <element signature="method#unfollowQuestion#0;class#FollowController#0" expanded="false" />
+            <element signature="docComment;method#followers#0;class#FollowController#0" expanded="false" />
+            <element signature="docComment;method#followees#0;class#FollowController#0" expanded="false" />
+            <element signature="method#followees#0;class#FollowController#0" expanded="false" />
+            <element signature="method#getUsersInfo#0;class#FollowController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#298#299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="method#afterPropertiesSet#0;class#EventConsumer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="method#zadd#0;class#JedisAdapter#0" expanded="true" />
+            <element signature="method#zcard#0;class#JedisAdapter#0" expanded="true" />
+            <element signature="method#zscore#0;class#JedisAdapter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="64" column="57" lean-forward="false" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.login_ticket">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/init-schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1c87e905/52a2add7-db55-48a1-828e-bf6ec9c01a51/wenda.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1690,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.63755745" />
               </list>
             </option>
           </splitter-proportions>
@@ -1650,7 +1714,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.63755745" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1671,7 +1735,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-pool2-2.4.2</last-edited>
+          <last-edited>commons-logging-1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

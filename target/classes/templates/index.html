@@ -35,10 +35,10 @@
                                         </div>
                                         <div class="expandable entry-body">
                                             <div class="zm-item-vote">
-                                                <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount="">4168</a></div>
+                                                <a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount="">${vo.followCount}</a></div>
                                             <div class="zm-item-answer-author-info">
                                                 <a class="author-link" data-tip="p$b$amuro1230" target="_blank" href="/user/$!{vo.user.id}">$!{vo.user.name}</a>
-                                                ，$date.format('yyyy-MM-dd HH:mm:ss', $!{vo.question.createdDate})</div>
+                                                ，$data.format('yyyy-MM-dd HH:mm:ss', $!{vo.question.createdDate})</div>
                                             <div class="zm-item-vote-info" data-votecount="4168" data-za-module="VoteInfo">
                                                 <span class="voters text">
                                                     <a href="#" class="more text">
@@ -73,4 +73,6 @@
             </div>
         </div>
     </div>
+#parse("js.html")
+<script type="text/javascript" src="/scripts/main/site/detail.js"></script>
 #parse("footer.html")

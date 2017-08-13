@@ -17,6 +17,10 @@ public class QuestionService {
     @Autowired
     QuestionDAO questionDAO;
 
+    public Question getById(int id) {
+        return questionDAO.getById(id);
+    }
+
     public int addQuestion(Question question) {
         question.setContent(HtmlUtils.htmlEscape(question.getContent()));
         question.setTitle(HtmlUtils.htmlEscape(question.getTitle()));
@@ -35,4 +39,6 @@ public class QuestionService {
     public int updateCommentCount(int id, int count) {
         return questionDAO.updateCommentCount(id, count);
     }
+
+
 }
