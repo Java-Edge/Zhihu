@@ -10,43 +10,31 @@ import java.util.Map;
  * @since 2017/8/11 20:31
  */
 public class EventModel {
-    /**
-     * eg:评论,评论者,评论类型(依赖于entityType)及其ID
-     *    问题,提问者,问题类型(依赖于entityType)及其ID
-     */
-    //事件类型
     private EventType type;
-    //触发者
     private int actorId;
-    //触发者关联触发的载体
     private int entityType;
-    //载体ID
     private int entityId;
-
-    //载体的所属者
     private int entityOwnerId;
 
-    //
+    private Map<String, String> exts = new HashMap<String, String>();
+
     public EventModel() {
 
     }
 
-    //构造函数
-    public EventModel(EventType type) {
-        this.type = type;
-    }
-    //扩展字段
-    private Map<String, String> exts = new HashMap<>();
-
     public EventModel setExt(String key, String value) {
         exts.put(key, value);
-        //为方便以后的调用:eg,xx.setType().setXX().setYY()  链式调用
         return this;
+    }
+
+    public EventModel(EventType type) {
+        this.type = type;
     }
 
     public String getExt(String key) {
         return exts.get(key);
     }
+
 
     public EventType getType() {
         return type;

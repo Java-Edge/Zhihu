@@ -27,30 +27,28 @@ import java.util.List;
  */
 @Controller
 public class MessageController {
-    private static final Logger logger = LoggerFactory.getLogger(MessageController.class);
+    @Autowired
+    HostHolder hostHolder;
 
     @Autowired
-    private HostHolder hostHolder;
+    MessageService messageService;
+
     @Autowired
-    private UserService userService;
-    @Autowired
-    private MessageService messageService;
+    UserService userService;
+
+    private static final Logger logger = LoggerFactory.getLogger(MessageController.class);
 
     @RequestMapping(path = {"/msg/list"}, method = {RequestMethod.GET})
     public String getConversationList(Model model) {
         if (hostHolder.getUser() == null) {
             return "redirect:/reglogin";
         }
-
-        //当前用户
         int localUserId = hostHolder.getUser().getId();
-
         List<Message> conversationList = messageService.getConversationList(localUserId, 0, 10);
-        List<ViewObject> conversations = new ArrayList<>();
+        List<ViewObject> conversations = new ArrayList<ViewObject>();
         for (Message message : conversationList) {
             ViewObject vo = new ViewObject();
             vo.set("message", message);
-            //显示来信人
             int targetId = message.getFromId() == localUserId ? message.getToId() : message.getFromId();
             vo.set("user", userService.getUser(targetId));
             vo.set("unread", messageService.getConversationUnreadCount(localUserId, message.getConversationId()));
@@ -64,7 +62,7 @@ public class MessageController {
     public String getConversationDetail(Model model, @RequestParam("conversationId") String conversationId) {
         try {
             List<Message> messageList = messageService.getConversationDetail(conversationId, 0, 10);
-            List<ViewObject> messages = new ArrayList<>();
+            List<ViewObject> messages = new ArrayList<ViewObject>();
             for (Message message : messageList) {
                 ViewObject vo = new ViewObject();
                 vo.set("message", message);
@@ -77,7 +75,6 @@ public class MessageController {
         }
         return "letterDetail";
     }
-
 
     @RequestMapping(path = {"/msg/addMessage"}, method = {RequestMethod.POST})
     @ResponseBody
@@ -100,6 +97,7 @@ public class MessageController {
             message.setContent(content);
             messageService.addMessage(message);
             return WendaUtil.getJSONString(0);
+
         } catch (Exception e) {
             logger.error("发送消息失败" + e.getMessage());
             return WendaUtil.getJSONString(1, "发信失败");

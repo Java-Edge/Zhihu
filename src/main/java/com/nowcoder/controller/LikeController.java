@@ -24,62 +24,45 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class LikeController {
+    @Autowired
+    LikeService likeService;
 
     @Autowired
-    private HostHolder hostHolder;
-    @Autowired
-    private LikeService likeService;
-    @Autowired
-    private CommentService commentService;
-    @Autowired
-    private EventProducer eventProducer;
+    HostHolder hostHolder;
 
-    /**
-     * 赞
-     *
-     * @param commentId 评论ID
-     * @return
-     */
+    @Autowired
+    CommentService commentService;
+
+    @Autowired
+    EventProducer eventProducer;
+
     @RequestMapping(path = {"/like"}, method = {RequestMethod.POST})
     @ResponseBody
     public String like(@RequestParam("commentId") int commentId) {
-        //先判断用户是否存在
         if (hostHolder.getUser() == null) {
-            //999:未登录
             return WendaUtil.getJSONString(999);
         }
 
         Comment comment = commentService.getCommentById(commentId);
 
-        //点完赞后,发事件 TODO:comment.getEntityId()就是其对应questionID???
         eventProducer.fireEvent(new EventModel(EventType.LIKE)
-                .setActorId(hostHolder.getUser().getId())
-                .setEntityId(commentId)
-                .setEntityType(EntityType.ENTITY_COMMENT)
-                .setEntityOwnerId(comment.getUserId())
+                .setActorId(hostHolder.getUser().getId()).setEntityId(commentId)
+                .setEntityType(EntityType.ENTITY_COMMENT).setEntityOwnerId(comment.getUserId())
                 .setExt("questionId", String.valueOf(comment.getEntityId())));
 
-        long likeCount = likeService.like(hostHolder.getUser().getId(), commentId, EntityType.ENTITY_COMMENT);
+        long likeCount = likeService.like(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
         return WendaUtil.getJSONString(0, String.valueOf(likeCount));
     }
 
-    /**
-     * 踩
-     *
-     * @param commentId 评论ID
-     * @return
-     */
     @RequestMapping(path = {"/dislike"}, method = {RequestMethod.POST})
     @ResponseBody
     public String dislike(@RequestParam("commentId") int commentId) {
-        //先判断用户是否存在
         if (hostHolder.getUser() == null) {
-            //999:未登录
             return WendaUtil.getJSONString(999);
         }
-        long likeCount = likeService.disLike(hostHolder.getUser().getId(), commentId, EntityType.ENTITY_COMMENT);
+
+        long likeCount = likeService.disLike(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
         return WendaUtil.getJSONString(0, String.valueOf(likeCount));
     }
-
 
 }

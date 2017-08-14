@@ -29,8 +29,9 @@ public class LoginController {
 
     @Autowired
     UserService userService;
+
     @Autowired
-    private EventProducer eventProducer;
+    EventProducer eventProducer;
 
     @RequestMapping(path = {"/reg/"}, method = {RequestMethod.POST})
     public String reg(Model model, @RequestParam("username") String username,
@@ -85,11 +86,9 @@ public class LoginController {
                 }
                 response.addCookie(cookie);
 
-             /*   eventProducer.fireEvent(new EventModel(EventType.LOGIN)
-                        .setExt("username",username)
-                        .setExt("email","2855845850@qq.com")
-                        .setActorId((int) map.get("userId")));*/
-
+                eventProducer.fireEvent(new EventModel(EventType.LOGIN)
+                        .setExt("username", username).setExt("email", "zjuyxy@qq.com")
+                        .setActorId((int)map.get("userId")));
 
                 if (StringUtils.isNotBlank(next)) {
                     return "redirect:" + next;
@@ -111,4 +110,5 @@ public class LoginController {
         userService.logout(ticket);
         return "redirect:/";
     }
+
 }

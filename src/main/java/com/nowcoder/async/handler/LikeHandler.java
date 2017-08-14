@@ -26,38 +26,26 @@ import java.util.List;
 @Component
 public class LikeHandler implements EventHandler {
     @Autowired
-    private MessageService messageService;
+    MessageService messageService;
+
     @Autowired
-    private UserService userService;
+    UserService userService;
 
     @Override
     public void doHandle(EventModel model) {
-        //构造一条消息
         Message message = new Message();
-
-        //消息由系统发送
         message.setFromId(WendaUtil.SYSTEM_USERID);
-
-        //接受者为所赞实体的的所属者
-        //message.setToId(model.getEntityOwnerId());
-        //为方便测试,发给自己
-        message.setToId(model.getActorId());
+        message.setToId(model.getEntityOwnerId());
         message.setCreatedDate(new Date());
-
-        //点赞用户
         User user = userService.getUser(model.getActorId());
-        message.setContent("用户"+user.getName()+
-                "赞了你的评论,http://127.0.0.1:8080/question/" + model.getExt("questionId"));
+        message.setContent("用户" + user.getName()
+                + "赞了你的评论,http://127.0.0.1:8080/question/" + model.getExt("questionId"));
 
         messageService.addMessage(message);
     }
 
-
-
     @Override
     public List<EventType> getSupportEventTypes() {
-        //只关心LIKE事件
         return Arrays.asList(EventType.LIKE);
     }
-
 }

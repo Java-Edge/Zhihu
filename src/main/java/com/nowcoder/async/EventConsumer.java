@@ -26,58 +26,44 @@ import java.util.Map;
 @Service
 public class EventConsumer implements InitializingBean,ApplicationContextAware {
     private static final Logger logger = LoggerFactory.getLogger(EventConsumer.class);
-    @Autowired
-    private JedisAdapter jedisAdapter;
-
-    //一类事件对应多种的handler
     private Map<EventType, List<EventHandler>> config = new HashMap<>();
-
     private ApplicationContext applicationContext;
 
-    //此类需要早早地启动执行
+    @Autowired
+    JedisAdapter jedisAdapter;
+
     @Override
     public void afterPropertiesSet() throws Exception {
-        //不知道工程具体有多少事件处理器的实现类,所以就需要先所有的实现类都找出来 TODO:此类的源码
         Map<String, EventHandler> beans = applicationContext.getBeansOfType(EventHandler.class);
-
         if (beans != null) {
             for (Map.Entry<String, EventHandler> entry : beans.entrySet()) {
-                //各个事件处理器关心的事件类型映射
                 List<EventType> eventTypes = entry.getValue().getSupportEventTypes();
 
                 for (EventType type : eventTypes) {
                     if (!config.containsKey(type)) {
-                        //事件还未注册,则添加进来
                         config.put(type, new ArrayList<>());
                     }
-                    //事件已被注册
                     config.get(type).add(entry.getValue());
                 }
             }
         }
 
-        //启动线程
         Thread thread = new Thread(() -> {
-            while (true) {
-                //获取消息队列的键
+            while(true) {
                 String key = RedisKeyUtil.getEventQueueKey();
-                //一直在找队列中是否有事件,无事件则一直阻塞
                 List<String> events = jedisAdapter.brpop(0, key);
+
                 for (String message : events) {
                     if (message.equals(key)) {
                         continue;
                     }
 
-                    //取出事件时,将指定的Json反序列化为指定类的对象
                     EventModel eventModel = JSON.parseObject(message, EventModel.class);
-
                     if (!config.containsKey(eventModel.getType())) {
-                        //未注册过此类事件,即应为非法事件
                         logger.error("不能识别的事件");
                         continue;
                     }
 
-                    //config识别出应该由何种handler来处理该类事件,所有要处理的handler链
                     for (EventHandler handler : config.get(eventModel.getType())) {
                         handler.doHandle(eventModel);
                     }

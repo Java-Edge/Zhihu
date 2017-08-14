@@ -15,23 +15,15 @@ import java.util.List;
 @Service
 public class CommentService {
     @Autowired
-    private CommentDAO commentDAO;
+    CommentDAO commentDAO;
 
     @Autowired
-    private SensitiveService sensitiveService;
+    SensitiveService sensitiveService;
 
-    public Comment getCommentById(int id) {
-        return commentDAO.getCommentById(id);
-    }
     public List<Comment> getCommentsByEntity(int entityId, int entityType) {
-        return commentDAO.selectByEntity(entityId, entityType);
+        return commentDAO.selectCommentByEntity(entityId, entityType);
     }
 
-    /**
-     * 添加评论(须过滤内容)
-     * @param comment
-     * @return
-     */
     public int addComment(Comment comment) {
         comment.setContent(HtmlUtils.htmlEscape(comment.getContent()));
         comment.setContent(sensitiveService.filter(comment.getContent()));
@@ -46,7 +38,11 @@ public class CommentService {
         return commentDAO.getUserCommentCount(userId);
     }
 
-    public void deleteComment(int entityId, int entityType) {
-        commentDAO.updateStatus(entityId, entityType, 1);
+    public boolean deleteComment(int commentId) {
+        return commentDAO.updateStatus(commentId, 1) > 0;
+    }
+
+    public Comment getCommentById(int id) {
+        return commentDAO.getCommentById(id);
     }
 }

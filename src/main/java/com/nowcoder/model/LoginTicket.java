@@ -7,11 +7,11 @@ import java.util.Date;
  * @since 2017/8/4 22:31
  */
 public class LoginTicket {
+    private int id;
     private int userId;
-    private String ticket;
     private Date expired;
-    //0表示有效状态,1表示无效
-    private int status;
+    private int status;// 0有效，1无效
+    private String ticket;
 
     public int getUserId() {
         return userId;

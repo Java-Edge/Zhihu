@@ -14,9 +14,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @Component
 public class WendaWebConfiguration extends WebMvcConfigurerAdapter {
     @Autowired
-    private PassportInterceptor passportInterceptor;
+    PassportInterceptor passportInterceptor;
+
     @Autowired
-    private LoginRequiredInterceptor loginRequiredInterceptor;
+    LoginRequiredInterceptor loginRequiredInterceptor;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

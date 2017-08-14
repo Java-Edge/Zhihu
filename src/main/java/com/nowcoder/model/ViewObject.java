@@ -4,12 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by nowcoder on 17/8/4.
+ * @author Shusheng Shi
+ * @since 17/8/4.
  *
  * 简化开发的工具类,传递到velocity时,可以传入任何数据库字段类型的数据,到时直接for循环即可
  */
 public class ViewObject {
-    private Map<String, Object> objs = new HashMap<String, Object>();
+    private Map<String, Object> objs = new HashMap<>();
     public void set(String key, Object value) {
         objs.put(key, value);
     }

@@ -15,13 +15,15 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
+
     @Autowired
-    HostHolder hostHolder;
+    private HostHolder hostHolder;
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         if (hostHolder.getUser() == null) {
             httpServletResponse.sendRedirect("/reglogin?next=" + httpServletRequest.getRequestURI());
+            return false;
         }
         return true;
     }

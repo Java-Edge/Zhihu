@@ -1,5 +1,8 @@
 package com.nowcoder.controller;
 
+import com.nowcoder.async.EventModel;
+import com.nowcoder.async.EventProducer;
+import com.nowcoder.async.EventType;
 import com.nowcoder.model.Comment;
 import com.nowcoder.model.EntityType;
 import com.nowcoder.model.HostHolder;
@@ -24,18 +27,18 @@ import java.util.Date;
 public class CommentController {
     private static final Logger logger = LoggerFactory.getLogger(CommentController.class);
     @Autowired
-    private HostHolder hostHolder;
-    @Autowired
-    private CommentService commentService;
-    @Autowired
-    private QuestionService questionService;
+    HostHolder hostHolder;
 
-    /**
-     * 添加评论
-     * @param questionId 问题ID
-     * @param content 评论内容
-     * @return
-     */
+    @Autowired
+    CommentService commentService;
+
+    @Autowired
+    QuestionService questionService;
+
+    @Autowired
+    EventProducer eventProducer;
+
+
     @RequestMapping(path = {"/addComment"}, method = {RequestMethod.POST})
     public String addComment(@RequestParam("questionId") int questionId,
                              @RequestParam("content") String content) {
@@ -46,20 +49,22 @@ public class CommentController {
                 comment.setUserId(hostHolder.getUser().getId());
             } else {
                 comment.setUserId(WendaUtil.ANONYMOUS_USERID);
+                // return "redirect:/reglogin";
             }
             comment.setCreatedDate(new Date());
-            comment.setEntityId(questionId);
             comment.setEntityType(EntityType.ENTITY_QUESTION);
+            comment.setEntityId(questionId);
             commentService.addComment(comment);
 
-            //更新评论数
             int count = commentService.getCommentCount(comment.getEntityId(), comment.getEntityType());
             questionService.updateCommentCount(comment.getEntityId(), count);
+
+            eventProducer.fireEvent(new EventModel(EventType.COMMENT).setActorId(comment.getUserId())
+                    .setEntityId(questionId));
 
         } catch (Exception e) {
             logger.error("增加评论失败" + e.getMessage());
         }
         return "redirect:/question/" + questionId;
-
     }
 }

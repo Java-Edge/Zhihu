@@ -9,7 +9,6 @@ import java.util.Date;
  */
 
 public class Message {
-
     private int id;
     private int fromId;
     private int toId;
@@ -17,6 +16,7 @@ public class Message {
     private Date createdDate;
     private int hasRead;
     private String conversationId;
+
 
     public int getId() {
         return id;
