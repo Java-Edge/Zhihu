@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logback-classic-1.1.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

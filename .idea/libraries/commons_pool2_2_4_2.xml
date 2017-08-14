@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="commons-pool2-2.4.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-pool2-2.4.2.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

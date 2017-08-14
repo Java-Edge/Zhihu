@@ -1,0 +1,18 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="sss">
+    <words>
+      <w>brpop</w>
+      <w>exts</w>
+      <w>followee</w>
+      <w>lpush</w>
+      <w>lrange</w>
+      <w>reglogin</w>
+      <w>sadd</w>
+      <w>scard</w>
+      <w>sismember</w>
+      <w>srem</w>
+      <w>unfollow</w>
+      <w>zscore</w>
+    </words>
+  </dictionary>
+</component>
