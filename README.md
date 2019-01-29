@@ -52,16 +52,6 @@ redis入门以及redis实现赞踩功能
 主要进行Redis的介绍并且实现赞踩功能。
 
 
-# 3 运行
-
-*   ### [](https://github.com/Sunybyjava/wenda#%E4%B8%8B%E8%BD%BD)下载
-
-`Download Zip`或者 `git clone`
-
-```source-shell
-	git clone https://github.com/Sunybyjava/wenda.git
-```
-
 *   ### [](https://github.com/Sunybyjava/wenda#%E5%AF%BC%E5%85%A5%E5%88%B0ide)导入到IDE
 
 使用`IDEA`创建的项目,配置好`maven`的相关配置,以及项目`JDK`版本,直接在主界面选择`Open`,然后找到项目所在路径,点击导入就可以了
