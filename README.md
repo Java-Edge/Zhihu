@@ -19,7 +19,6 @@
 *   **操作系统** : Mac OS
 *   **IDE** ：IntelliJ IDEA 2018.2 x64
 *   **JDK Version** : JDK1.8
-*   **Python Version** : Python 2.7
 *   **Web容器** ： SpringBoot 默认集成的容器 - Tomcat
 *   **数据库** ：Mysql 5.7
 *   **依赖管理工具** : Maven
