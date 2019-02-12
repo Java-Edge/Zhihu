@@ -6,7 +6,7 @@ import com.javaedge.model.User;
 import com.javaedge.model.ViewObject;
 import com.javaedge.service.MessageService;
 import com.javaedge.service.UserService;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -81,12 +81,12 @@ public class MessageController {
                              @RequestParam("content") String content) {
         try {
             if (hostHolder.getUser() == null) {
-                return WendaUtil.getJSONString(999, "未登录");
+                return YouZhiUtil.getJSONString(999, "未登录");
             }
 
             User user = userService.selectByName(toName);
             if (user == null) {
-                return WendaUtil.getJSONString(1, "用户不存在");
+                return YouZhiUtil.getJSONString(1, "用户不存在");
             }
 
             Message message = new Message();
@@ -95,11 +95,11 @@ public class MessageController {
             message.setToId(user.getId());
             message.setContent(content);
             messageService.addMessage(message);
-            return WendaUtil.getJSONString(0);
+            return YouZhiUtil.getJSONString(0);
 
         } catch (Exception e) {
             logger.error("发送消息失败" + e.getMessage());
-            return WendaUtil.getJSONString(1, "发信失败");
+            return YouZhiUtil.getJSONString(1, "发信失败");
         }
     }
 }

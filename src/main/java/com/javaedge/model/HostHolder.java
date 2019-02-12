@@ -3,11 +3,13 @@ package com.javaedge.model;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by javaedge on 2016/7/3.
+ *
+ * @author javaedge
+ * @date 2016/7/3
  */
 @Component
 public class HostHolder {
-    private static ThreadLocal<User> users = new ThreadLocal<User>();
+    private static ThreadLocal<User> users = new ThreadLocal<>();
 
     public User getUser() {
         return users.get();
@@ -18,6 +20,6 @@ public class HostHolder {
     }
 
     public void clear() {
-        users.remove();;
+        users.remove();
     }
 }

@@ -8,7 +8,7 @@ import com.javaedge.model.EntityType;
 import com.javaedge.model.HostHolder;
 import com.javaedge.service.CommentService;
 import com.javaedge.service.LikeService;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,7 +37,7 @@ public class LikeController {
     @ResponseBody
     public String like(@RequestParam("commentId") int commentId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         Comment comment = commentService.getCommentById(commentId);
@@ -48,17 +48,17 @@ public class LikeController {
                 .setExt("questionId", String.valueOf(comment.getEntityId())));
 
         long likeCount = likeService.like(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
-        return WendaUtil.getJSONString(0, String.valueOf(likeCount));
+        return YouZhiUtil.getJSONString(0, String.valueOf(likeCount));
     }
 
     @RequestMapping(path = {"/dislike"}, method = {RequestMethod.POST})
     @ResponseBody
     public String dislike(@RequestParam("commentId") int commentId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         long likeCount = likeService.disLike(hostHolder.getUser().getId(), EntityType.ENTITY_COMMENT, commentId);
-        return WendaUtil.getJSONString(0, String.valueOf(likeCount));
+        return YouZhiUtil.getJSONString(0, String.valueOf(likeCount));
     }
 }

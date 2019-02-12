@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="wenda:war exploded">
     <output-path>$PROJECT_DIR$/target/wenda-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>wenda</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -85,6 +92,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">

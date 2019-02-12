@@ -1,498 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f72eff5-e2b9-4aeb-b3cc-ed29b8327f8e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wenda_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wenda_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sss.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_6_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback_classic_1_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/52a2add7-db55-48a1-828e-bf6ec9c01a51.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/52a2add7-db55-48a1-828e-bf6ec9c01a51.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool2_2_4_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="6f72eff5-e2b9-4aeb-b3cc-ed29b8327f8e" name="Default" comment="可运行">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/velocity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wenda_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wenda_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sss.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/WendaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FeedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FeedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FollowHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LikeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/LikeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/LoginExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/WendaWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/configuration/WendaWebConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FeedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/LikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/CommentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/FeedDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/FeedDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/LoginTicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/MessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/MessageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/QuestionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/LoginRequiredInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/PassportInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/PassportInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/HostHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/LoginTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FeedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/FeedService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/FollowService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/LikeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SensitiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/SensitiveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/RedisKeyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/WendaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/FeedDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/javaedge/dao/FeedDAO.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/QuestionDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/javaedge/dao/QuestionDAO.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init-schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/spinner2.8f60205d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites.auto.915a539c.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/070a9fb26_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/070a9fb26_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/102799979_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/102799979_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/1ce495b02_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/1ce495b02_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6088e39f2_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6088e39f2_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/935f87219_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/935f87219_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a3f80f6a6_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b144d91ec_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b144d91ec_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c28e9af7f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c79247853_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c79247853_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c94c92af8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c94c92af8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/captcha.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/captcha.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e174d6d0c_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e6f4caaaa_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/hour.3d371c99.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/hour.3d371c99.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/nacl.656ec1c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/nacl.656ec1c4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/weekly.65279d61.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/weekly.65279d61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/aza-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/aza-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/base.fb262f0e.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/common.fed5411f.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/ga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/instant.e7a17de6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/instant.e7a17de6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/business.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/page-index.d7b54ac7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/page-main.5d4c554d.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/vendor.ff76fbae.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/za-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/letter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/letter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/result.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/followees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/followees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/followers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FeedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FeedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FollowHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FollowHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/LikeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/LikeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FeedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/QuestionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/dao/QuestionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/FollowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/RedisKeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaedge/util/WendaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaedge/util/YouZhiUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/letter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/toolbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/WendaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/WendaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/aspect/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/EventType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/handler/FeedHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/handler/FollowHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/handler/LikeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/async/handler/LoginExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/configuration/WendaWebConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/CommentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/FeedController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/FollowController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/LikeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/MessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/QuestionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/CommentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/FeedDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/FeedDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/LoginTicketDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/MessageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/QuestionDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/QuestionDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/interceptor/LoginRequiredInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/interceptor/PassportInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/EntityType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/Feed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/HostHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/LoginTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/ViewObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/FeedService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/FollowService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/LikeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/QuestionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/SensitiveService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/SensitiveService$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/SensitiveService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/JedisAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/RedisKeyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/util/WendaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/spinner2.8f60205d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2.4c54885a.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2@2x.6e638473.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites.auto.915a539c.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/img/sprites@2x.auto.dd5c79c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/070a9fb26_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/070a9fb26_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/102799979_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/102799979_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/1ce495b02_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/1ce495b02_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/41d652d947a489e056b0179ba137294b_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/4528283ed249589634546327431667bf_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6088e39f2_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6088e39f2_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/935f87219_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/935f87219_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a3f80f6a6_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/aadd7b895_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-suggested-avatar.c5af416d.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-validation@2x.65147043.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b144d91ec_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b144d91ec_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/b85ddd8aa_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c28e9af7f_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c79247853_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c79247853_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/c94c92af8_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/c94c92af8_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/captcha.gif" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/captcha.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_s.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/da8e974dc_s.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e174d6d0c_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e6f4caaaa_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/fff25000064308791f739149af611439_is.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/hour.3d371c99.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/hour.3d371c99.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/nacl.656ec1c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/nacl.656ec1c4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/nk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/res/weekly.65279d61.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/res/weekly.65279d61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/aza-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/aza-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/base.fb262f0e.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/base.fb262f0e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/common.fed5411f.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/common.fed5411f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/ga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/instant.e7a17de6.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/instant.e7a17de6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/base/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/base/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/component/popupMsg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/site/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/site/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/util/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/util/action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/main/util/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/main/util/business.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/page-index.d7b54ac7.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/page-main.5d4c554d.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/page-main.5d4c554d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/vendor.ff76fbae.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/vendor.ff76fbae.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/za-0.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/za-0.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/letter.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/letter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/result.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/feeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/feeds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/followees.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/followees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/followers.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/followers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/init-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/letter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/letterDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mails/login_exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mails/login_exception.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/toolbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/WendaApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/init-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wenda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wenda.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -523,6 +75,12 @@
         <item name="wenda@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wenda@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wenda: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -530,39 +88,47 @@
     <session id="1925717860">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Batch" value="1" />
-          <entry key="CLASS" value="8" />
-          <entry key="Database Element" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="CLASS" value="9" />
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="18" />
+          <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="50" />
-          <entry key="Markdown" value="1" />
+          <entry key="Image" value="12" />
+          <entry key="JAVA" value="89" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
-          <entry key="SQL" value="3" />
-          <entry key="Scratch" value="1" />
+          <entry key="SQL" value="6" />
+          <entry key="Scratch" value="4" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="186" />
+          <entry key="HTML" value="7" />
+          <entry key="JAVA" value="446" />
           <entry key="Markdown" value="142" />
-          <entry key="Scratch" value="11" />
-          <entry key="XML" value="84" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="22" />
+          <entry key="XML" value="90" />
         </counts>
       </usages-collector>
     </session>
@@ -573,91 +139,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/LikeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="256">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/LikeService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="-372">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventType.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="561">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="194" column="7" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
+            <state relative-caret-position="540">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="1063">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/SearchService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/CommentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/WendaUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="140">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -673,15 +251,11 @@
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>next</find>
-      <find>error</find>
-      <find>segments</find>
-      <find>wrap</find>
-      <find>form action</find>
-      <find>$!</find>
-      <find>营销</find>
       <find>营销岛</find>
       <find>answer-head</find>
       <find>main</find>
@@ -701,44 +275,34 @@
       <find>关注</find>
       <find>关注问题</find>
       <find>createdDate</find>
-      <find>nowcoder</find>
       <find>lo</find>
       <find>Shusheng Shi</find>
       <find>999</find>
+      <find>javaedge</find>
+      <find>JavaEdge</find>
+      <find>images</find>
+      <find>nowcoder</find>
+      <find>http://images.nowcoder.com</find>
+      <find>https://nowcoder.com/people</find>
+      <find>followQuestion</find>
+      <find>&lt;img src=</find>
     </findStrings>
     <replaceStrings>
       <replace>javaedge</replace>
       <replace>JavaEdge</replace>
+      <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/HostHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/LoginTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/LoginRequiredInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/PassportInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/WendaWebConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LikeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/header.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/FeedDAO.java" />
@@ -749,25 +313,47 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Feed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/feeds.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FeedController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FeedHandler.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/service/SensitiveService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/service/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/VelocityEngine.java" />
         <option value="$PROJECT_DIR$/src/main/resources/velocity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/WendaApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FeedController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/dao/QuestionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/service/FollowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/WendaUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/YouZhiUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/util/RedisKeyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FeedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java" />
       </list>
     </option>
   </component>
@@ -819,9 +405,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="26" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="474" />
+    <option name="y" value="23" />
     <option name="width" value="1635" />
     <option name="height" value="1027" />
   </component>
@@ -861,18 +447,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wenda" type="58d84e3e:PackageViewProjectNode" />
-              <item name="wenda" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -913,15 +487,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javaedge" type="462c0819:PsiDirectoryNode" />
-              <item name="async" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javaedge" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -931,17 +496,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javaedge" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javaedge" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchService" type="1a9f42e2:ClassTreeNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
@@ -952,26 +507,23 @@
               <item name="javaedge" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wenda" type="58d84e3e:PackageViewProjectNode" />
+              <item name="wenda" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1035,7 +587,7 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1081,6 +633,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -1093,6 +646,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -1101,12 +655,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+    <configuration default="true" type="FlashRunConfigurationType">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
       <option name="adlOptions" value="" />
       <option name="airProgramParameters" value="" />
       <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
       <option name="debugTransport" value="USB" />
       <option name="debuggerSdkRaw" value="BC SDK" />
       <option name="emulator" value="NexusOne" />
@@ -1138,7 +693,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
         <LauncherParameters>
@@ -1172,6 +727,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1231,7 +787,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -1239,16 +796,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -1258,11 +815,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.WendaApplication (1)" />
-      <item itemvalue="Spring Boot.WendaApplication" />
-      <item itemvalue="JUnit.InitDatabaseTests.contextLoads" />
       <item itemvalue="Application.SensitiveService" />
       <item itemvalue="Application.JedisAdapter" />
+      <item itemvalue="JUnit.InitDatabaseTests.contextLoads" />
+      <item itemvalue="Spring Boot.WendaApplication (1)" />
+      <item itemvalue="Spring Boot.WendaApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1325,8 +882,18 @@
       <workItem from="1548810634730" duration="4674000" />
       <workItem from="1548827041246" duration="857000" />
       <workItem from="1548829484662" duration="1658000" />
-      <workItem from="1548839288219" duration="205000" />
+      <workItem from="1548839288219" duration="2690000" />
+      <workItem from="1548850771082" duration="2958000" />
+      <workItem from="1548899418453" duration="5953000" />
     </task>
+    <task id="LOCAL-00001" summary="可运行">
+      <created>1548839884758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548839884758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1362,7 +929,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169314000" />
+    <option name="totallyTimeSpent" value="180710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1374,31 +941,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="474" y="23" width="1635" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17890772" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32937366" />
-      <window_info id="Structure" order="4" weight="0.2593985" />
+      <window_info id="Structure" order="4" weight="0.25885227" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33038673" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775282" weight="0.33480662" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.57348067" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49775282" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46053946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5022472" side_tool="true" weight="0.6413586" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32849163" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.47452548" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.47452548" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3296582" />
-      <window_info anchor="bottom" id="Database Console" order="11" weight="1.0" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.66933066" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.66961324" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
       <window_info anchor="bottom" id="SQL" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.18481518" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="1.0" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1406,7 +974,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.43772894" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="6" weight="0.2967033" />
       <window_info anchor="right" id="Bean Validation" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="8" weight="0.32967034" />
     </layout>
@@ -1428,358 +996,335 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="可运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="可运行" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="61" column="50" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="402">
+          <caret line="1718" column="43" lean-forward="true" selection-start-line="1718" selection-start-column="43" selection-end-line="1718" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/FeedController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/javaedge/dao/FeedDAO.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/javaedge/dao/QuestionDAO.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+        <state relative-caret-position="416">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="367">
-            <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img/spinner2.8f60205d.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img/sprites.auto.915a539c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://52a2add7-db55-48a1-828e-bf6ec9c01a51/schema/wenda/table/question" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52a2add7-db55-48a1-828e-bf6ec9c01a51/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="1224">
+          <caret line="72" lean-forward="true" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/SensitiveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wenda.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javaedge/InitDatabaseTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javaedge/WendaApplicationTests.java" />
-    <entry file="uml://JAVA/org.apache.velocity.app.VelocityEngine">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.velocity.app.VelocityEngine</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.velocity.app.VelocityEngine</node>
-            <node x="" y="">org.apache.velocity.runtime.RuntimeConstants</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="272.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/aspect/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="64" column="174" selection-start-line="64" selection-start-column="174" selection-end-line="64" selection-end-column="174" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/app/VelocityEngine.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javaedge/InitDatabaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="304">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/velocity-tools/velocity-tools-view/1.4/velocity-tools-view-1.4.jar!/org/apache/velocity/tools/view/context/ChainedContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/app/VelocityEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/springframework/spring-context-support/4.3.10.RELEASE/spring-context-support-4.3.10.RELEASE.jar!/org/springframework/ui/velocity/VelocityEngineUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/springframework/spring-context-support/4.3.10.RELEASE/spring-context-support-4.3.10.RELEASE-sources.jar!/org/springframework/ui/velocity/VelocityEngineUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/dao/CommentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar!/org/apache/velocity/runtime/resource/loader/ClasspathResourceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/VelocityEngine.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar!/org/apache/velocity/app/VelocityEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://52a2add7-db55-48a1-828e-bf6ec9c01a51/schema/wenda/table/comment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/toolbox.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/velocity.properties" />
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/init-schema.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/PassportInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://52a2add7-db55-48a1-828e-bf6ec9c01a51/schema/wenda/table/user" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../ShishushengDisk/Users/shishusheng/.m2/repository/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/WendaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/configuration/WendaWebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/LikeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/LikeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="194" column="7" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
+        <state relative-caret-position="493">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="187">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/dao/QuestionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/FollowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/YouZhiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="369" column="25" selection-start-line="369" selection-start-column="25" selection-end-line="369" selection-end-column="25" />
+          <folding>
+            <element signature="e#14132#14133#0" expanded="true" />
+            <element signature="e#14189#14190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/JedisAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/handler/FeedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/RedisKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/FollowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/async/EventProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="486">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/EntityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Feed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/HostHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/util/WendaUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/LoginTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="540">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/service/SearchService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="1063">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/model/ViewObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaedge/interceptor/LoginRequiredInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>

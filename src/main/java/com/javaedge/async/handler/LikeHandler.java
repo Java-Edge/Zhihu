@@ -7,7 +7,7 @@ import com.javaedge.model.Message;
 import com.javaedge.model.User;
 import com.javaedge.service.MessageService;
 import com.javaedge.service.UserService;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -29,7 +29,7 @@ public class LikeHandler implements EventHandler {
     @Override
     public void doHandle(EventModel model) {
         Message message = new Message();
-        message.setFromId(WendaUtil.SYSTEM_USERID);
+        message.setFromId(YouZhiUtil.SYSTEM_USER_ID);
         message.setToId(model.getEntityOwnerId());
         message.setCreatedDate(new Date());
         User user = userService.getUser(model.getActorId());

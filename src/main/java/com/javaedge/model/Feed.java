@@ -5,9 +5,12 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.Date;
 
 /**
- * Created by javaedge on 2016/8/12.
+ *
+ * @author javaedge
+ * @date 2016/8/12
  */
 public class Feed {
+
     private int id;
     private int type;
     private int userId;

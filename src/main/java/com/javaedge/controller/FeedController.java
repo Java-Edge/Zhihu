@@ -4,6 +4,7 @@ import com.javaedge.model.*;
 import com.javaedge.service.*;
 import com.javaedge.util.JedisAdapter;
 import com.javaedge.util.RedisKeyUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,11 +17,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by javaedge on 2016/7/15.
+ *
+ * @author javaedge
+ * @date 2016/7/15
  */
 @Controller
+@Slf4j
 public class FeedController {
-    private static final Logger logger = LoggerFactory.getLogger(FeedController.class);
 
     @Autowired
     FeedService feedService;
@@ -38,7 +41,7 @@ public class FeedController {
     private String getPushFeeds(Model model) {
         int localUserId = hostHolder.getUser() != null ? hostHolder.getUser().getId() : 0;
         List<String> feedIds = jedisAdapter.lrange(RedisKeyUtil.getTimelineKey(localUserId), 0, 10);
-        List<Feed> feeds = new ArrayList<Feed>();
+        List<Feed> feeds = new ArrayList<>();
         for (String feedId : feedIds) {
             Feed feed = feedService.getById(Integer.parseInt(feedId));
             if (feed != null) {

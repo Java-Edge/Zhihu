@@ -4,7 +4,7 @@ import com.javaedge.dao.LoginTicketDAO;
 import com.javaedge.dao.UserDAO;
 import com.javaedge.model.LoginTicket;
 import com.javaedge.model.User;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,9 +52,9 @@ public class UserService {
         user = new User();
         user.setName(username);
         user.setSalt(UUID.randomUUID().toString().substring(0, 5));
-        String head = String.format("http://images.javaedge.com/head/%dt.png", new Random().nextInt(1000));
+        String head = String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000));
         user.setHeadUrl(head);
-        user.setPassword(WendaUtil.MD5(password+user.getSalt()));
+        user.setPassword(YouZhiUtil.MD5(password + user.getSalt()));
         userDAO.addUser(user);
 
         // 登陆
@@ -65,7 +65,7 @@ public class UserService {
 
 
     public Map<String, Object> login(String username, String password) {
-        Map<String, Object> map = new HashMap<String, Object>();
+        Map<String, Object> map = new HashMap<>(32);
         if (StringUtils.isBlank(username)) {
             map.put("msg", "用户名不能为空");
             return map;
@@ -83,7 +83,7 @@ public class UserService {
             return map;
         }
 
-        if (!WendaUtil.MD5(password+user.getSalt()).equals(user.getPassword())) {
+        if (!YouZhiUtil.MD5(password + user.getSalt()).equals(user.getPassword())) {
             map.put("msg", "密码不正确");
             return map;
         }
@@ -98,7 +98,7 @@ public class UserService {
         LoginTicket ticket = new LoginTicket();
         ticket.setUserId(userId);
         Date date = new Date();
-        date.setTime(date.getTime() + 1000*3600*24);
+        date.setTime(date.getTime() + 1000 * 3600 * 24);
         ticket.setExpired(date);
         ticket.setStatus(0);
         ticket.setTicket(UUID.randomUUID().toString().replaceAll("-", ""));

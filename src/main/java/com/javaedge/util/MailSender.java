@@ -17,7 +17,9 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by javaedge on 2016/7/15. // course@javaedge.com NKnk66
+ *
+ * @author javaedge
+ * @date 2016/7/15.
  */
 @Service
 public class MailSender implements InitializingBean {
@@ -30,7 +32,7 @@ public class MailSender implements InitializingBean {
     public boolean sendWithHTMLTemplate(String to, String subject,
                                         String template, Map<String, Object> model) {
         try {
-            String nick = MimeUtility.encodeText("牛客中级课");
+            String nick = MimeUtility.encodeText("欢迎关注 JavaEdge 公众号");
             InternetAddress from = new InternetAddress(nick + "<course@javaedge.com>");
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage);

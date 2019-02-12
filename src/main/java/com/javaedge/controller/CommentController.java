@@ -8,7 +8,8 @@ import com.javaedge.model.EntityType;
 import com.javaedge.model.HostHolder;
 import com.javaedge.service.CommentService;
 import com.javaedge.service.QuestionService;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,11 +21,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Date;
 
 /**
- * Created by javaedge on 2016/7/24.
+ *
+ * @author javaedge
+ * @date 2016/7/24
  */
 @Controller
+@Slf4j
 public class CommentController {
-    private static final Logger logger = LoggerFactory.getLogger(CommentController.class);
+
     @Autowired
     HostHolder hostHolder;
 
@@ -47,7 +51,7 @@ public class CommentController {
             if (hostHolder.getUser() != null) {
                 comment.setUserId(hostHolder.getUser().getId());
             } else {
-                comment.setUserId(WendaUtil.ANONYMOUS_USERID);
+                comment.setUserId(YouZhiUtil.ANONYMOUS_USER_ID);
                 // return "redirect:/reglogin";
             }
             comment.setCreatedDate(new Date());
@@ -62,7 +66,7 @@ public class CommentController {
                     .setEntityId(questionId));
 
         } catch (Exception e) {
-            logger.error("增加评论失败" + e.getMessage());
+            log.error("增加评论失败" + e.getMessage());
         }
         return "redirect:/question/" + questionId;
     }

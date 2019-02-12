@@ -13,7 +13,9 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by rainday on 16/8/11.
+ *
+ * @author javaedge
+ * @date 16/8/11
  */
 @Service
 public class FollowService {
@@ -21,7 +23,8 @@ public class FollowService {
     JedisAdapter jedisAdapter;
 
     /**
-     * 用户关注了某个实体,可以关注问题,关注用户,关注评论等任何实体
+     * 用户关注了某个实体,可以关注问题 / 用户 / 评论 等任何实体
+     *
      * @param userId
      * @param entityType
      * @param entityId

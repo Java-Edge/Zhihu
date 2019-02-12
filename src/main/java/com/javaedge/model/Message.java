@@ -3,7 +3,9 @@ package com.javaedge.model;
 import java.util.Date;
 
 /**
- * Created by javaedge on 2016/7/24.
+ *
+ * @author javaedge
+ * @date 2016/7/24
  */
 public class Message {
     private int id;

@@ -5,6 +5,7 @@ import com.javaedge.service.CommentService;
 import com.javaedge.service.FollowService;
 import com.javaedge.service.QuestionService;
 import com.javaedge.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +20,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by javaedge on 2016/7/15.
+ *
+ * @author javaedge
+ * @date 2016/7/15
  */
 @Controller
+@Slf4j
 public class HomeController {
-    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
     @Autowired
     QuestionService questionService;

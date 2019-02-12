@@ -1,6 +1,7 @@
 package com.javaedge.util;
 
 import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,13 +9,15 @@ import java.security.MessageDigest;
 import java.util.Map;
 
 /**
- * Created by javaedge on 2016/7/3.
+ *
+ * @author javaedge
+ * @date 2016/7/3
  */
-public class WendaUtil {
-    private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
+@Slf4j
+public class YouZhiUtil {
 
-    public static int ANONYMOUS_USERID = 3;
-    public static int SYSTEM_USERID = 4;
+    public static int ANONYMOUS_USER_ID = 3;
+    public static int SYSTEM_USER_ID = 4;
 
     public static String getJSONString(int code) {
         JSONObject json = new JSONObject();
@@ -61,7 +64,7 @@ public class WendaUtil {
             }
             return new String(str);
         } catch (Exception e) {
-            logger.error("生成MD5失败", e);
+            log.error("生成MD5失败", e);
             return null;
         }
     }

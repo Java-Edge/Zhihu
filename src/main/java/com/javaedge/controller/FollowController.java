@@ -5,7 +5,7 @@ import com.javaedge.async.EventProducer;
 import com.javaedge.async.EventType;
 import com.javaedge.model.*;
 import com.javaedge.service.*;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +14,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 /**
- * Created by javaedge on 2016/7/30.
+ *
+ * @author javaedge
+ * @date 2016/7/30
  */
 @Controller
 public class FollowController {
@@ -40,7 +42,7 @@ public class FollowController {
     @ResponseBody
     public String followUser(@RequestParam("userId") int userId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         boolean ret = followService.follow(hostHolder.getUser().getId(), EntityType.ENTITY_USER, userId);
@@ -50,14 +52,14 @@ public class FollowController {
                 .setEntityType(EntityType.ENTITY_USER).setEntityOwnerId(userId));
 
         // 返回关注的人数
-        return WendaUtil.getJSONString(ret ? 0 : 1, String.valueOf(followService.getFolloweeCount(hostHolder.getUser().getId(), EntityType.ENTITY_USER)));
+        return YouZhiUtil.getJSONString(ret ? 0 : 1, String.valueOf(followService.getFolloweeCount(hostHolder.getUser().getId(), EntityType.ENTITY_USER)));
     }
 
     @RequestMapping(path = {"/unfollowUser"}, method = {RequestMethod.POST})
     @ResponseBody
     public String unfollowUser(@RequestParam("userId") int userId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         boolean ret = followService.unfollow(hostHolder.getUser().getId(), EntityType.ENTITY_USER, userId);
@@ -67,19 +69,25 @@ public class FollowController {
                 .setEntityType(EntityType.ENTITY_USER).setEntityOwnerId(userId));
 
         // 返回关注的人数
-        return WendaUtil.getJSONString(ret ? 0 : 1, String.valueOf(followService.getFolloweeCount(hostHolder.getUser().getId(), EntityType.ENTITY_USER)));
+        return YouZhiUtil.getJSONString(ret ? 0 : 1, String.valueOf(followService.getFolloweeCount(hostHolder.getUser().getId(), EntityType.ENTITY_USER)));
     }
 
+    /**
+     * 关注问题
+     *
+     * @param questionId 问题 id
+     * @return
+     */
     @RequestMapping(path = {"/followQuestion"}, method = {RequestMethod.POST})
     @ResponseBody
     public String followQuestion(@RequestParam("questionId") int questionId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         Question q = questionService.getById(questionId);
         if (q == null) {
-            return WendaUtil.getJSONString(1, "问题不存在");
+            return YouZhiUtil.getJSONString(1, "问题不存在");
         }
 
         boolean ret = followService.follow(hostHolder.getUser().getId(), EntityType.ENTITY_QUESTION, questionId);
@@ -88,24 +96,24 @@ public class FollowController {
                 .setActorId(hostHolder.getUser().getId()).setEntityId(questionId)
                 .setEntityType(EntityType.ENTITY_QUESTION).setEntityOwnerId(q.getUserId()));
 
-        Map<String, Object> info = new HashMap<>();
+        Map<String, Object> info = new HashMap<>(32);
         info.put("headUrl", hostHolder.getUser().getHeadUrl());
         info.put("name", hostHolder.getUser().getName());
         info.put("id", hostHolder.getUser().getId());
         info.put("count", followService.getFollowerCount(EntityType.ENTITY_QUESTION, questionId));
-        return WendaUtil.getJSONString(ret ? 0 : 1, info);
+        return YouZhiUtil.getJSONString(ret ? 0 : 1, info);
     }
 
     @RequestMapping(path = {"/unfollowQuestion"}, method = {RequestMethod.POST})
     @ResponseBody
     public String unfollowQuestion(@RequestParam("questionId") int questionId) {
         if (hostHolder.getUser() == null) {
-            return WendaUtil.getJSONString(999);
+            return YouZhiUtil.getJSONString(999);
         }
 
         Question q = questionService.getById(questionId);
         if (q == null) {
-            return WendaUtil.getJSONString(1, "问题不存在");
+            return YouZhiUtil.getJSONString(1, "问题不存在");
         }
 
         boolean ret = followService.unfollow(hostHolder.getUser().getId(), EntityType.ENTITY_QUESTION, questionId);
@@ -114,10 +122,10 @@ public class FollowController {
                 .setActorId(hostHolder.getUser().getId()).setEntityId(questionId)
                 .setEntityType(EntityType.ENTITY_QUESTION).setEntityOwnerId(q.getUserId()));
 
-        Map<String, Object> info = new HashMap<>();
+        Map<String, Object> info = new HashMap<>(32);
         info.put("id", hostHolder.getUser().getId());
         info.put("count", followService.getFollowerCount(EntityType.ENTITY_QUESTION, questionId));
-        return WendaUtil.getJSONString(ret ? 0 : 1, info);
+        return YouZhiUtil.getJSONString(ret ? 0 : 1, info);
     }
 
     @RequestMapping(path = {"/user/{uid}/followers"}, method = {RequestMethod.GET})

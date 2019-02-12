@@ -5,7 +5,7 @@ import com.javaedge.async.EventProducer;
 import com.javaedge.async.EventType;
 import com.javaedge.model.*;
 import com.javaedge.service.*;
-import com.javaedge.util.WendaUtil;
+import com.javaedge.util.YouZhiUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -101,8 +101,8 @@ public class QuestionController {
             question.setCreatedDate(new Date());
             question.setTitle(title);
             if (hostHolder.getUser() == null) {
-                question.setUserId(WendaUtil.ANONYMOUS_USERID);
-                // return WendaUtil.getJSONString(999);
+                question.setUserId(YouZhiUtil.ANONYMOUS_USER_ID);
+                // return YouZhiUtil.getJSONString(999);
             } else {
                 question.setUserId(hostHolder.getUser().getId());
             }
@@ -110,12 +110,12 @@ public class QuestionController {
                 eventProducer.fireEvent(new EventModel(EventType.ADD_QUESTION)
                         .setActorId(question.getUserId()).setEntityId(question.getId())
                 .setExt("title", question.getTitle()).setExt("content", question.getContent()));
-                return WendaUtil.getJSONString(0);
+                return YouZhiUtil.getJSONString(0);
             }
         } catch (Exception e) {
             logger.error("增加题目失败" + e.getMessage());
         }
-        return WendaUtil.getJSONString(1, "失败");
+        return YouZhiUtil.getJSONString(1, "失败");
     }
 
 }
