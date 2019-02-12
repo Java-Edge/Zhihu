@@ -81,7 +81,3 @@
 *   4.定义一个事件生产者`EventProducer`,这里就是用来生产各种各样的事件,如异常登录或者是注册邮件等等.本项目中这里就是把事件送到Redis中进行储存
 *   5.定义一个事件消费者`EventConsumer`,这里就是需要继承`InitializingBean`跟`ApplicationContextAware`.继承`InitializingBean`是可以定义bean的初始化方式,继承`InitializingBean`是为了可以通过这个上下文对象得到我们想获取的bean.然后在这个类里面使用多线程一直去Redis里面读取出事件,然后进行处理
 *   6.再继承`EventHandler`在方法里面写自己的实现
-
-
-# 参考
-牛客网高级项目
