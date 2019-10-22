@@ -1,5 +1,6 @@
 package com.javaedge.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.CharUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -13,16 +14,20 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-@Service
-public class SensitiveService implements InitializingBean {
 
-    private static final Logger logger = LoggerFactory.getLogger(SensitiveService.class);
+@Service
+@Slf4j
+/**
+ *
+ * @author javaedge
+ * @date 2016/7/15
+ */
+public class SensitiveService implements InitializingBean {
 
     /**
      * 默认敏感词替换符
      */
     private static final String DEFAULT_REPLACEMENT = "敏感词";
-
 
     private class TrieNode {
 
@@ -57,26 +62,18 @@ public class SensitiveService implements InitializingBean {
         void setKeywordEnd(boolean end) {
             this.end = end;
         }
-
-        public int getSubNodeCount() {
-            return subNodes.size();
-        }
-
-
     }
-
 
     /**
      * 根节点
      */
     private TrieNode rootNode = new TrieNode();
 
-
     /**
      * 判断是否是一个符号
      */
     private boolean isSymbol(char c) {
-        int ic = (int) c;
+        int ic = c;
         // 0x2E80-0x9FFF 东亚文字范围
         return !CharUtils.isAsciiAlphanumeric(c) && (ic < 0x2E80 || ic > 0x9FFF);
     }
@@ -93,8 +90,10 @@ public class SensitiveService implements InitializingBean {
         StringBuilder result = new StringBuilder();
 
         TrieNode tempNode = rootNode;
-        int begin = 0; // 回滚数
-        int position = 0; // 当前比较的位置
+        // 回滚数
+        int begin = 0;
+        // 当前比较的位置
+        int position = 0;
 
         while (position < text.length()) {
             char c = text.charAt(position);
@@ -135,6 +134,11 @@ public class SensitiveService implements InitializingBean {
         return result.toString();
     }
 
+    /**
+     * 添加敏感词
+     *
+     * @param lineTxt
+     */
     private void addWord(String lineTxt) {
         TrieNode tempNode = rootNode;
         // 循环每个字节
@@ -146,7 +150,7 @@ public class SensitiveService implements InitializingBean {
             }
             TrieNode node = tempNode.getSubNode(c);
 
-            if (node == null) { // 没初始化
+            if (node == null) {
                 node = new TrieNode();
                 tempNode.addSubNode(c, node);
             }
@@ -177,7 +181,7 @@ public class SensitiveService implements InitializingBean {
             }
             read.close();
         } catch (Exception e) {
-            logger.error("读取敏感词文件失败" + e.getMessage());
+            log.error("读取敏感词文件失败" + e.getMessage());
         }
     }
 
